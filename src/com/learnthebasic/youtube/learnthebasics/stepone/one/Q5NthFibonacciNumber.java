@@ -1,4 +1,4 @@
-package com.learnthebasic.youtube.learnthebasics.stepone.pointone;
+package com.learnthebasic.youtube.learnthebasics.stepone.one;
 
 import java.util.Scanner;
 

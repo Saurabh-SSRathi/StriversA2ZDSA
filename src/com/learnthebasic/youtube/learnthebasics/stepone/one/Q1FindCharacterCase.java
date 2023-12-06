@@ -1,4 +1,4 @@
-package com.learnthebasic.youtube.learnthebasics.stepone.pointone;
+package com.learnthebasic.youtube.learnthebasics.stepone.one;
 
 
 /*Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
