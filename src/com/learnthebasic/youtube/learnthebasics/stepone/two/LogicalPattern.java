@@ -40,10 +40,34 @@ public class LogicalPattern {
         }
     }
 
+    public static void alphaHill(int n) {
+        // Write your code here
+        for (int row = 0; row < n; row++) {
+            //Space
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print(" ");
+            }
+            char ch = 'A';
+            //Aplha
+            for (int col = 1; col <= 2 * row + 1; col++) {
+                System.out.print(ch);
+                if (col <= (2 * row + 1) / 2) ch++;
+                else ch--;
+            }
+            //Space
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
 
-    public static void main(String[] args) {
+
+
+        public static void main(String[] args) {
         //patternOne(3);
         //patternTwo(3);
-        patternTwelve(3);
+       // patternTwelve(3);
+        alphaHill(3);
     }
 }
